@@ -1,24 +1,23 @@
-##GitHub
+## GitHub
 
-#GIT CHEAT SHEET
+# GIT CHEAT SHEET
 
 
 Git is the open source distributed version control system that facilitates GitHub activities on your laptop or
 desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference.
 
-###INSTALL GIT
+### INSTALL GIT
 GitHub provides desktop clients that include a graphical user
 interface for the most common repository actions and an automatically
 updating command line edition of Git for advanced scenarios.
-####GitHub for Windows
-https://windows.github.com
-####GitHub for Mac
-https://mac.github.com
+
+**GitHub for Windows:**     https://windows.github.com
+**GitHub for Mac    :**     https://mac.github.com
 
 Git distributions for Linux and POSIX systems are available on the
 official Git SCM web site.
 
-####Git for All Platforms
+#### Git for All Platforms
 http://git-scm.com
 
 
