@@ -51,7 +51,7 @@ I. Create new repository, Clone to computer, push up back
 
     git commit -m " /*write a comment what is the change */ "
             
-6th : move to remote repository
+6th : move to remote repository then push
 
     git push origin
     or
