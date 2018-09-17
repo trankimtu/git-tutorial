@@ -1,0 +1,66 @@
+# git-practice-1
+
+<!doctype html> 
+#use for current html version
+<html>
+
+    <head> 
+        <tile>
+            Git-practice-1: Create new repository
+        </tile>
+    </head>
+
+    <body>
+        <h1> I. Create new repository </h1>        
+            <p>
+                https://github.com/trankimtu
+                Create a new repository name "git-practice-1.git"
+                Copy clone URL
+            </p>
+        
+        <h1> II. Clone to laptop </h1>
+            <p>
+                a. Open Git Bash
+
+                b. Use linux command go to folder want to save
+                    pwd: current directory
+                    ls: list
+                    cd: go to folder
+                    cat: display file content
+                    nano: text editor for programming
+
+                c. Use command "git clone" to clone everything to laptop
+                        Command: git clone https://github.com/trankimtu/git-practice-1.git
+
+                d. Use command "git remote" to set a name for this URL
+                        Command: git remote add origin https://github.com/trankimtu/git-practice-1.git
+                            // origin: default name, but can choose any name
+
+                e. Use command "git remote" to know current remote:
+                            (*_*) After clone to laptop, origin is automatical created (*_*)
+            </p>    
+
+        <h1> III. Create content </h1>
+            <p> Use Visual Studio Code to code the html </p>
+    
+        <h1> IV. Post Online </h1>
+            <h2> 1. Send to staging area - "git add" </h2>
+                <p>
+                    git add FullFileName Ex: git add homepage.html
+                    or
+                    git add --all
+                </p>
+           
+            <h2> 2. Send to local repository - git commit </h2>
+                <p> git commit -m " /*write a comment what is the change */ " </p>
+
+            <h2> 3. Move to remote repository </h2>
+                <p>
+                    git push origin
+                    or
+                    git push.
+                    or
+                    git push
+                </p>
+    </body>
+</html>
