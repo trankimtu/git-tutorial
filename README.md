@@ -41,18 +41,20 @@ I. Create new repository, Clone to computer, push up back
     
 4th : send to staging area
 
-            git add FullFileName Ex: git add homepage.html            
-            or            
-            git add --all            
-            or            
-            git add .            
+    git add FullFileName Ex: git add homepage.html            
+    or            
+    git add --all            
+    or            
+    git add .            
             
 5th : send to local repository
-            git commit -m " /*write a comment what is the change */ "
+
+    git commit -m " /*write a comment what is the change */ "
             
 6th : move to remote repository
-            git push origin
-            or
-            git push .
-            or
-            git push
+
+    git push origin
+    or
+    git push .
+    or
+    git push
