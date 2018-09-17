@@ -1,32 +1,39 @@
-## GitHub
+# USE BROWSER
 
-# GIT CHEAT SHEET
+**Create Repository**
+> Make readme.md a content
+> Upload file by browser
+
+# LATER ON
 
 
-Git is the open source distributed version control system that facilitates GitHub activities on your laptop or
-desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference.
+Git is the free and open source distributed version control system that's responsible for everything GitHub related that happens locally on your computer. This cheat sheet features the most important and commonly used Git commands for easy reference.
 
-### INSTALL GIT
-GitHub provides desktop clients that include a graphical user interface for the most common repository actions and an automatically updating command line edition of Git for advanced scenarios.
+### INSTALLATION & GUIS
+With platform specific installers for Git, GitHub also provides the ease of staying up-to-date with the latest releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and repository synchronization.
 
 **GitHub for Windows:**     https://windows.github.com
 
 **GitHub for Mac    :**     https://mac.github.com
 
-Git distributions for Linux and POSIX systems are available on the official Git SCM web site.
+For Linux and Solaris platforms, the latest release is available on the official Git web site.
 
 **Git for All Platforms:**  http://git-scm.com
 
 
 
 ### CONFIGURE TOOLING
-
 Configure user information for all local repositories
 
-**$ git config --global user.name "[name]"**
+**$ git config --global user.name "[name]"**  
 >Sets the name you want attached to your commit transactions
 
+**$ git config --global user.email "[email address]"**
+>Sets the email you want attached to your commit transactions
+
+
 ### CREATE REPOSITORIES
+
 ### MAKE CHANGES
 ### GROUP CHANGES
 ### REFACTOR FILENAMES
