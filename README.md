@@ -35,7 +35,9 @@ I. Create new repository, Clone to computer, push up back
                 Know current remote: git remote
                 (*_*) After clone to laptop, origin is automatical created (*_*)
 3rd : Changing
-    > a. Use Visual Studio Code to code the html
+
+    a. Use Visual Studio Code
+    b. Use terminal inside the Visual Studio Code to add, commit, and push as well
     
 4th : send to staging area
 
