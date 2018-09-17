@@ -7,36 +7,34 @@ Git is the open source distributed version control system that facilitates GitHu
 desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference.
 
 ### INSTALL GIT
-GitHub provides desktop clients that include a graphical user
-interface for the most common repository actions and an automatically
-updating command line edition of Git for advanced scenarios.
+GitHub provides desktop clients that include a graphical user interface for the most common repository actions and an automatically updating command line edition of Git for advanced scenarios.
 
 **GitHub for Windows:**     https://windows.github.com
+
 **GitHub for Mac    :**     https://mac.github.com
 
-Git distributions for Linux and POSIX systems are available on the
-official Git SCM web site.
+Git distributions for Linux and POSIX systems are available on the official Git SCM web site.
 
-#### Git for All Platforms
-http://git-scm.com
+**Git for All Platforms:**  http://git-scm.com
 
 
 
-###CONFIGURE TOOLING
+### CONFIGURE TOOLING
+
 Configure user information for all local repositories
 
->**$ git config --global user.name "[name]"**
+**$ git config --global user.name "[name]"**
 >Sets the name you want attached to your commit transactions
 
-###CREATE REPOSITORIES
-###MAKE CHANGES
-###GROUP CHANGES
-###REFACTOR FILENAMES
-###SUPPRESS TRACKING
-###SAVE FRAGMENTS
-###REVIEW HISTORY
-###REDO COMMITS
-###SYNCHRONIZE CHANGES
+### CREATE REPOSITORIES
+### MAKE CHANGES
+### GROUP CHANGES
+### REFACTOR FILENAMES
+### SUPPRESS TRACKING
+### SAVE FRAGMENTS
+### REVIEW HISTORY
+### REDO COMMITS
+### SYNCHRONIZE CHANGES
 ###
 ###
 ###
