@@ -5,56 +5,72 @@ Make readme.md a content
 
 Upload file via browser
 
-
-
-
-
 # USE CODE
-I. Create new repository, Clone to computer, push up back
 
+## Install git
+```
+    Can install git pakage in Visual Studio Code
+    Mint, Ubuntu : 
+        sudo apt-get update
+        sudo apt-get upgrade
+        sudo apt-get install git
+```
+## Check git version
+```
+    git --version
+```
+## Config Name, Email, editor, list:
+```
+    git config --global user.name "[name]"
+    git config --global user.email "[email]"
+    git config --global core.editor [vim or emacs or ... pick 1]
+```
+**Print to screen what config**
+```
+    git config --list
+```
+**Create a new respiratory via github.com and copy the URL**
 
+**Create project on local machine**
 
-
-1st : create a new repository on github.com, copy clone URL
-2nd : Clone it to laptop
-    a. Open Git Bash
-    b. Use linux command go to folder want to save to
+/* The address run init automatically become origin */
+```
+    git init [project-name]
+```
+**Create project via browser then clone to local machine will void changing oringin**
+```
+    /* Move to folder we want to be origin */
+    git clone  URL    
+```
+**Check current origin**
+```
+    git remote
+```
+**Change origin to current project**
+/* name-origin can be anything */
+```
+    git remote [name-origin] [URL]
+```
+**Add to staging area**
+```
+    /* Add all files in the origin */
+    git add .
+    or
+    git add --all
     
-        pwd: current directory        
-        ls: list        
-        cd: go to folder        
-        cat: display file content        
-        nano: text editor for programming        
-
-    c. Use command git clone to clone everything to laptop
-            Command: git clone https://github.com/trankimtu/git-practice-1.git
-        Set a name for this URL
-            Command: git remote add origin https://github.com/trankimtu/git-practice-1.git
-                // origin: default name, but can choose any name
-
-                Know current remote: git remote
-                (*_*) After clone to laptop, origin is automatical created (*_*)
-3rd : Changing
-
-    a. Use Visual Studio Code
-    b. Use terminal inside the Visual Studio Code to add, commit, and push as well
-    
-4th : send to staging area
-
-    git add FullFileName Ex: git add homepage.html            
-    or            
-    git add --all            
-    or            
-    git add .            
-            
-5th : send to local repository
-
-    git commit -m " /*write a comment what is the change */ "
-            
-6th : move to remote repository then push
-
+    /* Add specific file */
+    git add [fileName.extention]
+```
+**Send to local repository**
+```
+    git commit -m " /*write a comment for what is the change or what about this version */ "
+```
+**Move to remote repository then push**
+```
+/* Push all iles in current origin */
     git push origin
     or
     git push .
     or
     git push
+```
