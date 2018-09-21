@@ -31,6 +31,13 @@ Upload file via browser
 ```
 **Create a new respiratory via github.com and copy the URL**
 
+**Clone the empty project to local machine**
+```
+git clone  URL    
+```
+**Cerate file or copy file to the folder then add, commit, and push**
+
+
 **Create project on local machine**
 
 /* The address run init automatically become origin */
@@ -51,6 +58,7 @@ Upload file via browser
 ```
     git remote [name-origin] [URL]
 ```
+
 **Add to staging area**
 ```
     /* Add all files in the origin */
