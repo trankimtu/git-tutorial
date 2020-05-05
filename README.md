@@ -35,8 +35,18 @@ Upload file via browser
 ```
 git clone  URL    
 ```
-**Cerate file or copy file to the folder then add, commit, and push**
+**Update current project**
+```
+git config --global user.email "email@example.com"
+git config --global user.email
 
+git init
+git add .
+git commit -m "<message>"
+git remote add origin <URL>
+git remote -v
+git push -f origin master
+```
 
 **Create project on local machine**
 
