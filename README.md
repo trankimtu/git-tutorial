@@ -92,3 +92,9 @@ git push -f origin master
     or
     git push
 ```
+## Clone a specific branch
+```
+git clone --branch <branchname> <remote-repo-url>
+or
+git clone -b <branchname> <remote-repo-url>
+```
