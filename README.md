@@ -42,7 +42,9 @@ git config --global user.email
 
 git init
 git add .
+git status
 git commit -m "<message>"
+git status
 git remote add origin <URL>
 git remote -v
 git push -f origin master
