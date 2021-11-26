@@ -29,11 +29,40 @@ Upload file via browser
 ```
     git config --list
 ```
+**Get Help**
+```
+    git help <verb>
+    git <verb> --help
+    man git-<verb>
+    
+    Ex: git help config
+```
+## New Project
+
+## Import Existing Project into Git
+
+Go to the project's directory
+```
+git init
+```
+
+
+
+
+
+
+
+
+
+
+
 **Create a new respiratory via github.com and copy the URL**
 
 **Clone the empty project to local machine**
 ```
-git clone  URL    
+git clone  URL
+or
+git clone URL <folder name>
 ```
 **Update current project**
 ```
