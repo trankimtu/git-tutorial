@@ -10,6 +10,7 @@ Upload file via browser
 ## Install git
 ```
     Can install git pakage in Visual Studio Code
+        https://git-scm.com/download/win
     Mint, Ubuntu : 
         sudo apt-get update
         sudo apt-get upgrade
