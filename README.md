@@ -20,6 +20,15 @@ Upload file via browser
 ```
     git --version
 ```
+**Get Help**
+```
+    git help <verb>
+    git <verb> --help
+    man git-<verb>
+    
+    Ex: git help config
+```
+
 ## Config Name, Email, editor, list:
 ```
     git config --global user.name "[name]"
@@ -63,14 +72,7 @@ To remove our file from the excluded list, we will run:
     $ git update-index --no-assume-unchanged path/to/requirements.txt
 ```
 
-**Get Help**
-```
-    git help <verb>
-    git <verb> --help
-    man git-<verb>
-    
-    Ex: git help config
-```
+
 ## New Project
 
 ## Import Existing Project into Git
