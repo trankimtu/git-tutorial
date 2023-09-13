@@ -106,10 +106,14 @@ git config --global user.email "email@example.com"
 git config --global user.email
 
 git init
-git add .
+git add . // Adding files to staging area which is ready to commit
 git status
 git commit -m "<message>"
 git status
+git log // show all commit
+git log --author="partial name of author" // show all commit from that author
+git diff // see different between 2 files
+git diff --staged // see different staging area
 git remote add origin <URL>
 git remote -v
 git push -f origin master
