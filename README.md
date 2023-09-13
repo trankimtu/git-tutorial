@@ -29,7 +29,40 @@ Upload file via browser
 **Print to screen what config**
 ```
     git config --list
+    git config user.name
+    git config user.email
 ```
+## Remove file or folder from stage - git reset
+When using the git reset command, you must add all the files to the index and then unstage the file you want.
+```
+# Start by staging all files
+$ git add .
+# To exclude a file
+$ git reset -- path/to/file
+# To exclude a folder
+$ git reset -- path/to/folder/*
+```
+
+## Use the exclude pathspec
+Git version 1.9.0 and higher allows us to remove one or more paths while adding files for commit. This is possible with the :(exclude) pathspec, also written as :! or :^.
+```
+$ git add --all -- ':!path/to/requirements.txt'
+$ git add --all -- ':!path/to/folder/*'
+```
+## Temporarily Exclude File From Tracking
+We can temporarily exclude our requirements.txt file from tracking, as illustrated below.
+```
+    $ git update-index --assume-unchanged path/to/requirements.txt
+```
+Git will exclude our requirements.txt file every time we run the git add . command. To list all the files marked --assume-unchanged, we will run:
+```
+    $ git ls-files -v | grep "^h"
+```
+To remove our file from the excluded list, we will run:
+```
+    $ git update-index --no-assume-unchanged path/to/requirements.txt
+```
+
 **Get Help**
 ```
     git help <verb>
