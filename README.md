@@ -28,13 +28,14 @@
 ```
     git --version
 ``` 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Get Help**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get Help
 
 ```
     git help <verb>
     git <verb> --help
     man git-<verb>
-```    
+```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
 
 ```
