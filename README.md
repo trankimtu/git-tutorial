@@ -12,26 +12,31 @@ Drag and drop on browser
 
 <h3> &nbsp;&nbsp;&nbsp; 1. Install git</h3>
 Can install git pakage in Visual Studio Code
+
 ```
     https://git-scm.com/download/win
 ```
 Mint, Ubuntu : 
+
 ```
     sudo apt-get update
     sudo apt-get upgrade
     sudo apt-get install git
 ```
 <h3> &nbsp;&nbsp;&nbsp; 2. Check git version </h3>
+
 ```
     git --version
 ``` 
 **Get Help**
+
 ```
     git help <verb>
     git <verb> --help
     man git-<verb>
 ```    
 Ex: 
+
 ```
     git help config
 ```
