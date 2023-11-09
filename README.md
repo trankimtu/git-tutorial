@@ -1,5 +1,5 @@
-<h1 style="text-align: center;"> A. USE BROWSER </h1>
-&nbsp;&nbsp;&nbsp;  *I. Create Repository*
+<h1> A. USE BROWSER </h1>
+&nbsp;&nbsp;&nbsp;  <h3>I. Create Repository*</h3>
 >> Make readme.md a content
 
 > ## II. Upload file via browser
