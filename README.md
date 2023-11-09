@@ -1,4 +1,4 @@
-<h1 style="color: blue;"> A. USE BROWSER </h1>
+<h1> A. USE BROWSER </h1>
 &nbsp;&nbsp;&nbsp;  <h2> I. Create Repository </h2>
 
 Make readme.md a content
@@ -8,7 +8,7 @@ Make readme.md a content
 Drag and drop on browser
 
 <h1> B. USE CODE</h1>
-&nbsp;&nbsp;&nbsp;  <h2>I. Setup</h2>
+&nbsp;&nbsp;&nbsp;  <h2> I. Setup</h2>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>1. Install git</h3>
 Can install git pakage in Visual Studio Code
@@ -36,7 +36,7 @@ Ex:
     git help config
 ```
 &nbsp;&nbsp;&nbsp;  <h2>II. PROCESS</h2>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>1. Init with branch</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 1. Init with branch</h3>
 ```
     git init -b <branch name>
 ```
@@ -48,7 +48,7 @@ Check:
 ```
     git status
 ```
->> ### 2. Add
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 2. Add </h3>
 ```
     git add .
 ```
@@ -68,15 +68,15 @@ Check:
 ```
     git status
 ```
->> ### 3. Commit
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 3. Commit </h3>
 ```
     git commit -m "<Message>"
 ```
->> ### 4. Connect to gitHub on the cloud
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 4. Connect to gitHub on the cloud </h3>
 ```
     git remote add origin <git hub code link>
 ```
->> ### 5. Push
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 5. Push </h3>
 ```
     git push -u -f origin <branch>
 ```
@@ -132,7 +132,7 @@ To remove our file from the excluded list, we will run:
 ```
 
 
-## New Project
+<h1> New Project </h1>
 
 ## Import Existing Project into Git
 
