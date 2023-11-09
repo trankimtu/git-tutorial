@@ -87,7 +87,6 @@ Ex:
 ```
 # C. Extra Info
 
-
 ## Config Name, Email, editor, list:
 ```
     git config --global user.name "[name]"
