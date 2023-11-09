@@ -1,23 +1,23 @@
 <h1> A. USE BROWSER </h1>
 &nbsp;&nbsp;&nbsp;  <h2>I. Create Repository*</h2>
->> Make readme.md a content
+Make ```readme.md``` a content
 
 &nbsp;&nbsp;&nbsp;  <h2>II. Upload file via browser</h2>
->> Drag and drop on browser
+Drag and drop on browser
 
 # B. USE CODE
 &nbsp;&nbsp;&nbsp;  <h2>I. Setup</h2>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>1. Install git</h3>
-```
+
     Can install git pakage in Visual Studio Code
-        https://git-scm.com/download/win
+        ```https://git-scm.com/download/win```
     Mint, Ubuntu : 
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install git
-```
->> ### 2. Check git version
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>2. Check git version</h3>
 ```
     git --version
 ```
