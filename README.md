@@ -1,14 +1,14 @@
 # A. USE BROWSER
 > ## I. Create Repository
-Make readme.md a content
+>> Make readme.md a content
 
-## II. Upload file via browser
-Drag and drop on browser
+> ## II. Upload file via browser
+>> Drag and drop on browser
 
 # B. USE CODE
-## I. Setup
+> ## I. Setup
 
-### 1. Install git
+>> ### 1. Install git
 ```
     Can install git pakage in Visual Studio Code
         https://git-scm.com/download/win
@@ -17,7 +17,7 @@ Drag and drop on browser
         sudo apt-get upgrade
         sudo apt-get install git
 ```
-### 2. Check git version
+>> ### 2. Check git version
 ```
     git --version
 ```
@@ -29,8 +29,8 @@ Drag and drop on browser
     
     Ex: git help config
 ```
-## II. PROCESS
-### 1. Init with branch
+> ## II. PROCESS
+>> ### 1. Init with branch
 ```
     git init -b <branch name>
 ```
@@ -42,7 +42,7 @@ Check:
 ```
     git status
 ```
-### 2. Add
+>> ### 2. Add
 ```
     git add .
 ```
@@ -62,15 +62,15 @@ Check:
 ```
     git status
 ```
-### 3. Commit
+>> ### 3. Commit
 ```
     git commit -m "<Message>"
 ```
-### 4. Connect to gitHub on the cloud
+>> ### 4. Connect to gitHub on the cloud
 ```
     git remote add origin <git hub code link>
 ```
-### 5. Push
+>> ### 5. Push
 ```
     git push -u -f origin <branch>
 ```
