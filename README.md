@@ -2,35 +2,35 @@
 &nbsp;&nbsp;&nbsp;  <h2>I. Create Repository*</h2>
 Make ```readme.md``` a content
 
-&nbsp;&nbsp;&nbsp;  <h2>II. Upload file via browser</h2>
+&nbsp;&nbsp;&nbsp;  <h2>II. Upload file via browser
 Drag and drop on browser
 
 # B. USE CODE
-&nbsp;&nbsp;&nbsp;  <h2>I. Setup</h2>
+I. Setup</h2>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>1. Install git</h3>
 
     Can install git pakage in Visual Studio Code
-        ```https://git-scm.com/download/win```
+        https://git-scm.com/download/win
     Mint, Ubuntu : 
         sudo apt-get update
         sudo apt-get upgrade
         sudo apt-get install git
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>2. Check git version</h3>
-```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>2. Check git version
+
     git --version
-```
+    
 **Get Help**
-```
+
     git help <verb>
     git <verb> --help
     man git-<verb>
     
     Ex: git help config
-```
-> ## II. PROCESS
->> ### 1. Init with branch
+
+&nbsp;&nbsp;&nbsp;  <h2>II. PROCESS</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>1. Init with branch</h3>
 ```
     git init -b <branch name>
 ```
