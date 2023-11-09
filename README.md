@@ -1,8 +1,8 @@
 # A. USE BROWSER
-<ol type="I">
-## <li></li>
-<li></li>
-<li></li>
+<ol type="A">
+    <li></li>
+    <li></li>
+    <li></li>
     
 </ol>
 ## I. Create Repository
