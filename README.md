@@ -21,7 +21,7 @@ Mint, Ubuntu :
     sudo apt-get upgrade
     sudo apt-get install git
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>2. Check git version
+<h3> &nbsp;&nbsp;&nbsp; 2. Check git version
 ```
     git --version
 ``` 
@@ -35,8 +35,8 @@ Ex:
 ```
     git help config
 ```
-&nbsp;&nbsp;&nbsp;  <h2>II. PROCESS</h2>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 1. Init with branch</h3>
+<h2>II. PROCESS</h2>
+<h3> &nbsp;&nbsp;&nbsp; 1. Init with branch</h3>
 ```
     git init -b <branch name>
 ```
@@ -48,7 +48,7 @@ Check:
 ```
     git status
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 2. Add </h3>
+<h3> &nbsp;&nbsp;&nbsp; 2. Add </h3>
 ```
     git add .
 ```
@@ -68,15 +68,15 @@ Check:
 ```
     git status
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 3. Commit </h3>
+<h3> &nbsp;&nbsp;&nbsp; 3. Commit </h3>
 ```
     git commit -m "<Message>"
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 4. Connect to gitHub on the cloud </h3>
+<h3> &nbsp;&nbsp;&nbsp; 4. Connect to gitHub on the cloud </h3>
 ```
     git remote add origin <git hub code link>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3> 5. Push </h3>
+<h3> &nbsp;&nbsp;&nbsp; 5. Push </h3>
 ```
     git push -u -f origin <branch>
 ```
