@@ -1,11 +1,11 @@
 <h1 align="center"> A. USE BROWSER </h1>
 <h2> I. Create Repository </h2>
 
-Make readme.md a content
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Make readme.md a content
 
 <h2> II. Upload file via browser </h2>
 
-Drag and drop on browser
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag and drop on browser
 
 <h1 align="center"> B. USE CODE</h1>
 <h2> I. Setup</h2>
