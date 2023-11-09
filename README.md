@@ -1,23 +1,23 @@
 <h1 align="center"> A. USE BROWSER </h1>
 <h2> I. Create Repository </h2>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Make readme.md a content
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Make readme.md a content
 
 <h2> II. Upload file via browser </h2>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag and drop on browser
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Drag and drop on browser
 
 <h1 align="center"> B. USE CODE</h1>
 <h2> I. Setup</h2>
 
 <h3> &nbsp;&nbsp;&nbsp; 1. Install git</h3>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
 
 ```
     https://git-scm.com/download/win
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mint, Ubuntu : 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mint, Ubuntu : 
 
 ```
     sudo apt-get update
@@ -29,7 +29,7 @@
 ```
     git --version
 ``` 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get Help
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Get Help
 
 ```
     git help <verb>
@@ -37,7 +37,7 @@
     man git-<verb>
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
 
 ```
     git help config
@@ -48,12 +48,12 @@
 ```
     git init -b <branch name>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
 
 ```
     git init -b main
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 
 ```
     git status
@@ -63,22 +63,22 @@
 ```
     git add .
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 
 ```
     git status
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
 
 ```
     git reset -- <path/to/file>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
 
 ```
     git reset -- Video/*
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 
 ```
     git status
@@ -99,8 +99,8 @@
 ```
     git push -u -f origin <branch>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login may need at this step <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login may need at this step <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
 ```
     git push -u -f origin main
 ```
