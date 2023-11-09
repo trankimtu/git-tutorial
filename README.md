@@ -7,7 +7,7 @@ Make readme.md a content
 
 Drag and drop on browser
 
-<h1> B. USE CODE</h1>
+<h1 align="center"> B. USE CODE</h1>
 &nbsp;&nbsp;&nbsp;  <h2> I. Setup</h2>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h3>1. Install git</h3>
@@ -85,7 +85,7 @@ Ex:
 ```
     git push -u -f origin main
 ```
-# C. Extra Info
+<h1 align="center"> C. Extra Info</h1>
 
 ## Config Name, Email, editor, list:
 ```
