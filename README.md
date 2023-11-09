@@ -6,8 +6,9 @@ Make readme.md a content
 Upload file via browser
 
 # USE CODE
+## Setup
 
-## Install git
+### Install git
 ```
     Can install git pakage in Visual Studio Code
         https://git-scm.com/download/win
@@ -16,7 +17,7 @@ Upload file via browser
         sudo apt-get upgrade
         sudo apt-get install git
 ```
-## Check git version
+### Check git version
 ```
     git --version
 ```
@@ -28,6 +29,58 @@ Upload file via browser
     
     Ex: git help config
 ```
+## PROCESS
+### Init with branch
+```
+    git init -b <branch name>
+```
+Ex:
+```
+    git init -b main
+```
+Check:
+```
+    git status
+```
+### Add
+```
+    git add .
+```
+Check:
+```
+    git status
+```
+Exclude files / folder if needed:
+```
+    git reset -- <path/to/file>
+```
+Ex: 
+```
+    git reset -- Video/*
+```
+Check:
+```
+    git status
+```
+### Commit
+```
+    git commit -m "<Message>"
+```
+### Connect to gitHub on the cloud
+```
+    git remote add origin <git hub code link>
+```
+### Push
+```
+    git push -u -f origin <branch>
+```
+Login may need at this step <br>
+Ex:
+```
+    git push -u -f origin main
+```
+# Extra Info
+
 
 ## Config Name, Email, editor, list:
 ```
