@@ -1,10 +1,10 @@
 # A. USE BROWSER
-<ul type="I">
+<ol type="I">
 <li></li>
 <li></li>
 <li></li>
     
-</ul>
+</ol>
 ## I. Create Repository
 Make readme.md a content
 
