@@ -48,12 +48,12 @@
 ```
     git init -b <branch name>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
 
 ```
     git init -b main
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 
 ```
     git status
@@ -63,22 +63,22 @@
 ```
     git add .
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 
 ```
     git status
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
 
 ```
     git reset -- <path/to/file>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
 
 ```
     git reset -- Video/*
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 
 ```
     git status
@@ -99,8 +99,8 @@
 ```
     git push -u -f origin <branch>
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login may need at this step <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login may need at this step <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
 ```
     git push -u -f origin main
 ```
