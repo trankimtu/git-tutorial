@@ -11,7 +11,7 @@ Drag and drop on browser
 <h2> I. Setup</h2>
 
 <h3> &nbsp;&nbsp;&nbsp; 1. Install git</h3>
-&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
 
 ```
     https://git-scm.com/download/win
