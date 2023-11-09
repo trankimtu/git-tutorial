@@ -11,12 +11,12 @@ Drag and drop on browser
 <h2> I. Setup</h2>
 
 <h3> &nbsp;&nbsp;&nbsp; 1. Install git</h3>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
 
 ```
     https://git-scm.com/download/win
 ```
-&nbsp;&nbsp;&nbsp; Mint, Ubuntu : 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mint, Ubuntu : 
 
 ```
     sudo apt-get update
@@ -28,14 +28,14 @@ Drag and drop on browser
 ```
     git --version
 ``` 
-&nbsp;&nbsp;&nbsp; **Get Help**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Get Help**
 
 ```
     git help <verb>
     git <verb> --help
     man git-<verb>
 ```    
-&nbsp;&nbsp;&nbsp; Ex: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
 
 ```
     git help config
@@ -45,11 +45,11 @@ Drag and drop on browser
 ```
     git init -b <branch name>
 ```
-&nbsp;&nbsp;&nbsp; Ex:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
 ```
     git init -b main
 ```
-&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 ```
     git status
 ```
@@ -57,19 +57,19 @@ Drag and drop on browser
 ```
     git add .
 ```
-&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 ```
     git status
 ```
-&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
 ```
     git reset -- <path/to/file>
 ```
-&nbsp;&nbsp;&nbsp; Ex: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
 ```
     git reset -- Video/*
 ```
-&nbsp;&nbsp;&nbsp; Check:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
 ```
     git status
 ```
@@ -85,8 +85,8 @@ Drag and drop on browser
 ```
     git push -u -f origin <branch>
 ```
-&nbsp;&nbsp;&nbsp; Login may need at this step <br>
-&nbsp;&nbsp;&nbsp; Ex:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login may need at this step <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
 ```
     git push -u -f origin main
 ```
