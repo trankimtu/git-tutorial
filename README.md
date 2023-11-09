@@ -1,11 +1,5 @@
 # A. USE BROWSER
-<ol type="A">
-    <li></li>
-    <li></li>
-    <li></li>
-    
-</ol>
-## I. Create Repository
+> ## I. Create Repository
 Make readme.md a content
 
 ## II. Upload file via browser
