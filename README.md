@@ -44,46 +44,58 @@
 ```
 <h2>II. PROCESS</h2>
 <h3> &nbsp;&nbsp;&nbsp; 1. Init with branch</h3>
+
 ```
     git init -b <branch name>
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex:
+
 ```
     git init -b main
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+
 ```
     git status
 ```
 <h3> &nbsp;&nbsp;&nbsp; 2. Add </h3>
+
 ```
     git add .
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+
 ```
     git status
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
+
 ```
     git reset -- <path/to/file>
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex: 
+
 ```
     git reset -- Video/*
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Check:
+
 ```
     git status
 ```
 <h3> &nbsp;&nbsp;&nbsp; 3. Commit </h3>
+
 ```
     git commit -m "<Message>"
 ```
+
 <h3> &nbsp;&nbsp;&nbsp; 4. Connect to gitHub on the cloud </h3>
+
 ```
     git remote add origin <git hub code link>
 ```
 <h3> &nbsp;&nbsp;&nbsp; 5. Push </h3>
+
 ```
     git push -u -f origin <branch>
 ```
