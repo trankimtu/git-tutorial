@@ -1,4 +1,4 @@
-<h1 style="text-align: center"> A. USE BROWSER </h1>
+<h1 style="text-align: center;"> A. USE BROWSER </h1>
 &nbsp;&nbsp;&nbsp;  *I. Create Repository*
 >> Make readme.md a content
 
