@@ -1,8 +1,10 @@
 <h1> A. USE BROWSER </h1>
-&nbsp;&nbsp;&nbsp;  <h2>I. Create Repository*</h2>
-Make ```readme.md``` a content
+&nbsp;&nbsp;&nbsp;  <h2>I. Create Repository</h2>
+
+    Make readme.md a content
 
 &nbsp;&nbsp;&nbsp;  <h2>II. Upload file via browser
+
 Drag and drop on browser
 
 # B. USE CODE
