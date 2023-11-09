@@ -11,12 +11,12 @@ Drag and drop on browser
 <h2> I. Setup</h2>
 
 <h3> &nbsp;&nbsp;&nbsp; 1. Install git</h3>
-Can install git pakage in Visual Studio Code
+&nbsp;&nbsp;&nbsp; Can install git pakage in Visual Studio Code
 
 ```
     https://git-scm.com/download/win
 ```
-Mint, Ubuntu : 
+&nbsp;&nbsp;&nbsp; Mint, Ubuntu : 
 
 ```
     sudo apt-get update
@@ -28,14 +28,14 @@ Mint, Ubuntu :
 ```
     git --version
 ``` 
-**Get Help**
+&nbsp;&nbsp;&nbsp; **Get Help**
 
 ```
     git help <verb>
     git <verb> --help
     man git-<verb>
 ```    
-Ex: 
+&nbsp;&nbsp;&nbsp; Ex: 
 
 ```
     git help config
@@ -45,11 +45,11 @@ Ex:
 ```
     git init -b <branch name>
 ```
-Ex:
+&nbsp;&nbsp;&nbsp; Ex:
 ```
     git init -b main
 ```
-Check:
+&nbsp;&nbsp;&nbsp; Check:
 ```
     git status
 ```
@@ -57,19 +57,19 @@ Check:
 ```
     git add .
 ```
-Check:
+&nbsp;&nbsp;&nbsp; Check:
 ```
     git status
 ```
-Exclude files / folder if needed:
+&nbsp;&nbsp;&nbsp; Exclude files / folder if needed:
 ```
     git reset -- <path/to/file>
 ```
-Ex: 
+&nbsp;&nbsp;&nbsp; Ex: 
 ```
     git reset -- Video/*
 ```
-Check:
+&nbsp;&nbsp;&nbsp; Check:
 ```
     git status
 ```
@@ -85,8 +85,8 @@ Check:
 ```
     git push -u -f origin <branch>
 ```
-Login may need at this step <br>
-Ex:
+&nbsp;&nbsp;&nbsp; Login may need at this step <br>
+&nbsp;&nbsp;&nbsp; Ex:
 ```
     git push -u -f origin main
 ```
