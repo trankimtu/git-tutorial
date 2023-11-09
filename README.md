@@ -1,5 +1,5 @@
-# A. USE BROWSER
-&nbsp;&nbsp;&nbsp; ## I. Create Repository
+<center> # A. USE BROWSER </center>
+&nbsp;&nbsp;&nbsp;  *I. Create Repository
 >> Make readme.md a content
 
 > ## II. Upload file via browser
