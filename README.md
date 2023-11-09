@@ -21,7 +21,7 @@ Mint, Ubuntu :
     sudo apt-get upgrade
     sudo apt-get install git
 ```
-<h3> &nbsp;&nbsp;&nbsp; 2. Check git version
+<h3> &nbsp;&nbsp;&nbsp; 2. Check git version </h3>
 ```
     git --version
 ``` 
