@@ -2,13 +2,13 @@
 &nbsp;&nbsp;&nbsp;  <h3>I. Create Repository*</h3>
 >> Make readme.md a content
 
-> ## II. Upload file via browser
+&nbsp;&nbsp;&nbsp;  <h3>II. Upload file via browser</h3>
 >> Drag and drop on browser
 
 # B. USE CODE
-> ## I. Setup
+&nbsp;&nbsp;&nbsp;  <h3>I. Setup</h3>
 
->> ### 1. Install git
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <h4>1. Install git</h4>
 ```
     Can install git pakage in Visual Studio Code
         https://git-scm.com/download/win
