@@ -104,6 +104,12 @@
 ```
     git push -u -f origin main
 ```
+
+<h3> &nbsp;&nbsp;&nbsp; 6. Clear cached </h3>
+
+```
+    git rm --cached -r .
+```
 <h1 align="center"> C. Extra Info</h1>
 
 ## Config Name, Email, editor, list:
