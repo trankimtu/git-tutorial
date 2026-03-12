@@ -42,6 +42,13 @@
 ```
     git help config
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Clean Pull
+
+```
+    git fetch --all
+    git reset --hard origin/main
+```
+
 <h2>II. PROCESS</h2>
 <h3> &nbsp;&nbsp;&nbsp; 1. Init with branch</h3>
 
