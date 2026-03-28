@@ -16,7 +16,10 @@
 ```
     https://git-scm.com/download/win
 ```
-
+Update git
+```
+    git update-git-for-windows
+```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mint, Ubuntu : 
 
 ```
