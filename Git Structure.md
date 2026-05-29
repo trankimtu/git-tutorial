@@ -21,3 +21,13 @@ Created from develop, merged into main and develop.
 ### 5. hotfix/*
 Used for urgent production fixes.  <br>
 Created from main, merged into main and develop.
+
+## Switch branch
+```
+  git switch feature/careers
+```
+or
+```
+  git checkout feature/careers
+```
+VS Code will instantly detect the branch change and update the files in the editor.
